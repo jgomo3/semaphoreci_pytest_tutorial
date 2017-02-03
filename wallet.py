@@ -2,7 +2,7 @@ class InsufficientAmount(Exception):
     pass
 
 class Wallet(object):
-    def __init__(self, initial_amount=0):
+    def __init__(self, initial_amount=1):
         self.balance = initial_amount
 
     def spend_cash(self, amount):
